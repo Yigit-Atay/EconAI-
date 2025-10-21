@@ -6,6 +6,13 @@ author: "Yiğit Atay"
 tags: ["AI", "Finance", "Economy", "Chatbot", "Streamlit", "Python"]
 ---
 
+<p align="center">
+  <a href="#-kurulum"><img src="https://img.shields.io/badge/Install-quickstart-success" /></a>
+  <a href="#-özellikler"><img src="https://img.shields.io/badge/Features-pro-blue" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0-green" /></a>
+</p>
+
+
 <!-- Open Graph Banner -->
 <p align="center">
   <img src="assets/screenshots/banner.png" width="100%" alt="EconAI Open Graph Banner"/>
@@ -87,7 +94,7 @@ MODEL=gpt-4o-mini
 
 ---
 
-## ▶️ Çalıştırma
+▶️ Çalıştırma
 
 streamlit run app.py
 
@@ -98,7 +105,7 @@ Tarayıcıda otomatik açılmazsa:
 
 ---
 
-## 🧩 Proje Yapısı
+🧩 Proje Yapısı
 
 EconAI/
 ├─ app.py
@@ -125,28 +132,28 @@ EconAI/
 
 ---
 
-## 🧠 Teknolojiler
+🧠 Teknolojiler
 
 Katman	        Teknoloji
 Arayüz	        Streamlit, Lottie Animations
 AI              Motoru	OpenAI GPT-4, Wikipedia API
 Programlama	    Python 3.10+
 Görselleştirme	Plotly, Pandas, FPDF
-Güvenlik	    python-dotenv, .gitignore, AGPL-3.0
+Güvenlik	      python-dotenv, .gitignore, AGPL-3.0
 
 ---
 
-## 🔐 Güvenlik
+🔐 Güvenlik
 
-Dosya	        Amaç	                Paylaşım
-.env	        API anahtarları	        🚫 Hayır
-.env.example	Örnek yapı	            ✅ Evet
-users.db	    Kullanıcı veritabanı	🚫 Hayır
-LICENSE	L       isans metni	            ✅ Evet
+Dosya	          Amaç	                    Paylaşım
+.env	          API anahtarları	          🚫 Hayır
+.env.example	  Örnek yapı	              ✅ Evet
+users.db	      Kullanıcı veritabanı	    🚫 Hayır
+LICENSE	        Lisans metni	            ✅ Evet
 
 ---
 
-## 📄 Lisans
+📄 Lisans
 
 Bu proje AGPL-3.0 lisansı ile korunmaktadır.
 Kodu kişisel projelerde kullanabilir, geliştirip paylaşabilirsin.
@@ -154,7 +161,7 @@ Ticari kullanımlarda kaynak belirtilmesi zorunludur.
 
 ---
 
-## ✍️ Yazar
+✍️ Yazar
 
 **Yiğit Atay**  
 [🌐 LinkedIn](https://www.linkedin.com/in/yi%C4%9Fit-atay-55a5b6296/) • [💻 GitHub](https://github.com/Yigit-Atay)
