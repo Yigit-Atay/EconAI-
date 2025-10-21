@@ -1,18 +1,3 @@
----
-title: "EconAI — Akıllı Ekonomi & Finans Asistanı"
-description: "Yapay zekâ destekli ekonomi ve finans sohbet asistanı. GPT-4 ve Streamlit tabanlı profesyonel deneyim."
-image: assets/screenshots/banner.png
-author: "Yiğit Atay"
-tags: ["AI", "Finance", "Economy", "Chatbot", "Streamlit", "Python"]
----
-
-<p align="center">
-  <a href="#-kurulum"><img src="https://img.shields.io/badge/Install-quickstart-success" /></a>
-  <a href="#-özellikler"><img src="https://img.shields.io/badge/Features-pro-blue" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0-green" /></a>
-</p>
-
-
 <!-- Open Graph Banner -->
 <p align="center">
   <img src="assets/screenshots/banner.png" width="100%" alt="EconAI Open Graph Banner"/>
@@ -89,10 +74,9 @@ pip install -r requirements.txt
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
 WIKI_USER_AGENT=EconAI/1.0
 MODEL=gpt-4o-mini
-       
-        🔹 API anahtarı girilmezse sistem otomatik olarak Wikipedia moduna geçer.
+🔹 API anahtarı girilmezse sistem otomatik olarak Wikipedia moduna geçer.
 
----
+
 
 ▶️ Çalıştırma
 
@@ -103,7 +87,7 @@ Tarayıcıda otomatik açılmazsa:
 👉 http://localhost:8501
  adresine gidin.
 
----
+
 
 🧩 Proje Yapısı
 
@@ -130,7 +114,7 @@ EconAI/
 │  ├─ database.py
 │  └─ pdf_utf8.py
 
----
+
 
 🧠 Teknolojiler
 
@@ -141,7 +125,7 @@ Programlama	    Python 3.10+
 Görselleştirme	Plotly, Pandas, FPDF
 Güvenlik	      python-dotenv, .gitignore, AGPL-3.0
 
----
+
 
 🔐 Güvenlik
 
@@ -151,7 +135,7 @@ Dosya	          Amaç	                    Paylaşım
 users.db	      Kullanıcı veritabanı	    🚫 Hayır
 LICENSE	        Lisans metni	            ✅ Evet
 
----
+
 
 📄 Lisans
 
@@ -159,15 +143,22 @@ Bu proje AGPL-3.0 lisansı ile korunmaktadır.
 Kodu kişisel projelerde kullanabilir, geliştirip paylaşabilirsin.
 Ticari kullanımlarda kaynak belirtilmesi zorunludur.
 
----
 
-✍️ Yazar
 
-**Yiğit Atay**  
-[🌐 LinkedIn](https://www.linkedin.com/in/yi%C4%9Fit-atay-55a5b6296/) • [💻 GitHub](https://github.com/Yigit-Atay)
+```
+
+
+
+<p align="center">
+  <b>Yiğit Atay</b><br>
+  <a href="https://www.linkedin.com/in/yi%C4%9Fit-atay-55a5b6296/">🌐 LinkedIn</a> •
+  <a href="https://github.com/Yigit-Atay">💻 GitHub</a>
+</p>
+
 
 
 <p align="center">
   <i>Made with ❤️, ☕ and Streamlit</i><br>
   <img src="https://img.shields.io/badge/Powered_by-Streamlit-ff4b4b?logo=streamlit" />
 </p>
+
